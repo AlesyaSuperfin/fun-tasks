@@ -1,4 +1,4 @@
-<h1 align="center">Funny tasks if you are bored!</h1>
+<h1 align="center">Activities if you are bored!</h1>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -7,7 +7,7 @@
 
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/fun-tasks/blob/main/src/funny_tasks.jpg)
 
-I created Funny Tasks application to learn how to work with useState(), useEffect and API.
+I created Activities application to learn how to work with useState(), useEffect and API.
 
 * The project is based on React.
 * The project successfully used a fetch request to the API.
