@@ -5,7 +5,7 @@
 
 [Link for the application](https://alesya-superfin-fun-tasks.netlify.app/)
 
-![Product Name Screen Shot](https://github.com/AlesyaSuperfin/recipe-search/blob/main/src/recipe-search.jpg)
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/fun-tasks/blob/main/src/funny_tasks.jpg)
 
 I created Funny Tasks application to learn how to work with useState(), useEffect and API.
 
