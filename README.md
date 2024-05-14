@@ -12,7 +12,8 @@ I created Funny Tasks application to learn how to work with useState(), useEffec
 * The project is based on React.
 * The project successfully used a fetch request to the API.
 * Click the button and find an interesting tasks from a database.
-* Simple and nice design!
+* Simple and beautiful design!
+* Enjoy ;)
 
-![Product Name Screen Shot](https://github.com/AlesyaSuperfin/recipe-search/blob/main/src/recipe-search_mob.jpg)
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/fun-tasks/blob/main/src/funny_tasks_two.jpg)
 
