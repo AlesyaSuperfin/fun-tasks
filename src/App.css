@@ -46,7 +46,7 @@ button {
 button:hover {
   background-color: white;
   border: palevioletred solid 3px;
-  color: black;
+  color: white;
 }
 
 .containerTask {
