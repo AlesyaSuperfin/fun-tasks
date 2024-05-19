@@ -1,11 +1,3 @@
-/* body {
-  background-image: url(./woman-one.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-} */
-
 .App {
   background-size: cover;
   background-position: center;
@@ -46,20 +38,27 @@ button {
 button:hover {
   background-color: white;
   border: palevioletred solid 3px;
-  color: white;
+  color: black;
 }
 
 .containerTask {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 100px;
-  display: none;
   width: 60%;
   text-align: center;
   position: fixed;
   left: 50%;
   transform: translate(-50%);
   bottom: 100px;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
 }
 
 @media all and (max-width: 1000px) {

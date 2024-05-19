@@ -7,6 +7,7 @@ function App() {
 
 const [task, setTask] = useState("");
 const [cover, setCover] = useState(image);
+const [showTask, setShowTask] = useState(false);
 
 useEffect ( () => {
   getTask();
@@ -25,15 +26,8 @@ useEffect ( () => {
   const clicked = () => {
     getTask();
     setCover(newImage);
+    setShowTask(true);
   }
-
-  // const changeCover = () => {
-  //   const bodyImage = document.querySelector('body');
-  //   bodyImage.style.backgroundImage = `url('${image}')`;
-
-  //   const taskField = document.querySelector('.containerTask');
-  //   taskField.style.display = 'block';
-  // }
 
   return (
     <div className="App" style={ backgroundStyle }>
@@ -44,7 +38,7 @@ useEffect ( () => {
         <button onClick={clicked}>Click here & get a task</button>
       </div>
 
-      <div className='containerTask'>
+      <div className={`containerTask ${showTask ? 'visible' : 'hidden'}`}>
         <h3>{task}</h3>
       </div>
 
